@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.365" height="59.365" viewBox="0 0 59.365 59.365">
+  <g id="Group_30639" data-name="Group 30639" transform="translate(-1625.822 -7885.087)">
+    <g id="Group_46" data-name="Group 46" transform="translate(1625.822 7885.087)">
+      <g id="Ellipse_18" data-name="Ellipse 18" fill="none" stroke="#fff" stroke-width="1">
+        <ellipse cx="29.683" cy="29.683" rx="29.683" ry="29.683" stroke="none"/>
+        <ellipse cx="29.683" cy="29.683" rx="29.183" ry="29.183" fill="none"/>
+      </g>
+    </g>
+    <g id="linkedin-logo" transform="translate(1642.391 7901.652)">
+      <g id="post-linkedin">
+        <path id="Path_20413" data-name="Path 20413" d="M23.606,0H2.623A2.631,2.631,0,0,0,0,2.623V23.606a2.631,2.631,0,0,0,2.623,2.623H23.606a2.631,2.631,0,0,0,2.623-2.623V2.623A2.631,2.631,0,0,0,23.606,0ZM7.869,22.294H3.934v-11.8H7.869ZM5.9,8.262A2.361,2.361,0,1,1,8.262,5.9,2.351,2.351,0,0,1,5.9,8.262ZM22.294,22.294H18.36V15.344a1.967,1.967,0,0,0-3.934,0v6.951H10.491v-11.8h3.934v1.574A4.236,4.236,0,0,1,17.7,10.229a4.647,4.647,0,0,1,4.59,4.59Z" transform="translate(0 0)" fill="#f6f08d"/>
+      </g>
+    </g>
+  </g>
+</svg>

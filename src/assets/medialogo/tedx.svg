@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.365" height="59.365" viewBox="0 0 59.365 59.365">
+  <g id="Group_30681" data-name="Group 30681" transform="translate(-1457.135 -5246.892)">
+    <g id="Group_30638" data-name="Group 30638" transform="translate(1457.135 5246.892)">
+      <g id="Group_47" data-name="Group 47">
+        <g id="Ellipse_17" data-name="Ellipse 17" fill="none" stroke="#fff" stroke-width="1">
+          <ellipse cx="29.683" cy="29.683" rx="29.683" ry="29.683" stroke="none"/>
+          <ellipse cx="29.683" cy="29.683" rx="29.183" ry="29.183" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="twitter" transform="translate(1474.275 5264.032)">
+      <path id="Path_20635" data-name="Path 20635" d="M303.141,248.652l5.71,8.168h-2.344l-4.66-6.665h0l-.684-.978-5.443-7.786h2.344l4.393,6.284Z" transform="translate(-289.604 -236.398)" fill="#f6f08d"/>
+      <path id="Path_20636" data-name="Path 20636" d="M22.634,0H2.742A2.742,2.742,0,0,0,0,2.742V22.634a2.742,2.742,0,0,0,2.742,2.742H22.634a2.742,2.742,0,0,0,2.742-2.742V2.742A2.742,2.742,0,0,0,22.634,0ZM16.185,21.519,11.47,14.656l-5.9,6.863H4.04l6.752-7.848L4.04,3.844H9.19l4.465,6.5,5.591-6.5h1.526l-6.439,7.484h0l7,10.191Z" fill="#f6f08d"/>
+    </g>
+  </g>
+</svg>

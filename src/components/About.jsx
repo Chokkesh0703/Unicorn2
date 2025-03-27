@@ -41,7 +41,7 @@ const About = () => {
             </p>
           </div>
           <div
-            className="absolute top-4 left-56  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:mt-8 md:left-137 lg:w-[20rem] lg:h-[20rem] lg:top-12 lg:left-220  rounded-full border-l-black border-l-12"
+            className="absolute top-4 left-56  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:mt-8 md:left-137 lg:w-[20rem] lg:h-[20rem] lg:top-12 lg:left-217  rounded-full border-l-black border-l-10"
             style={{
               backgroundImage: `url(${photo})`,
               backgroundSize: "cover",
@@ -50,7 +50,7 @@ const About = () => {
             }}
           ></div>
           <div
-            className="absolute top-4 left-40  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:top-12 md:left-100  lg:w-[20rem] lg:h-[20rem] lg:top-20 lg:left-165 rounded-full border-l-black border-l-10"
+            className="absolute top-4 left-40  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:top-12 md:left-100  lg:w-[20rem] lg:h-[20rem] lg:top-20 lg:left-164 rounded-full border-l-black border-l-10"
             style={{
               backgroundImage: `url(${animal})`,
               backgroundSize: "cover",

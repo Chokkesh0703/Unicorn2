@@ -9,9 +9,9 @@ const Home = () => {
           Elevate Your Vision
         </h1>
         <p className="text-[#FFFFFFCC] mr-10 md:text-[20px] md:mr-20 font-Poppins  lg:font-light">
-              Step into a world where imagination knows no bounds. We blend <br />
-              cutting-edge technology with artistic vision to create truly <br />
-              magical visual experiences. Let The Unicorn Pictures transform <br />
+              Step into a world where imagination knows no bounds. We blend 
+              cutting-edge technology with artistic vision to create truly 
+              magical visual experiences. Let The Unicorn Pictures transform 
               your story into an unforgettable journey.
         </p>
         <button className="bg-[#D6B962] text-[#0E1320] flex  font-medium rounded-full w-16 h-6 justify-center items-center hover:bg-yellow-600 gap-2 md:w-32 md:h-9 md:gap-2 ">

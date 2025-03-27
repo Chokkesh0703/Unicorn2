@@ -4,17 +4,19 @@ import logo from "./../assets/medialogo/Group 30678.svg";
 
 const Contact = () => {
   return (
-    <div id="Contact" className="mt-10 lg:mt-5 ">
+    <div id="Contact" className="mt-10 lg:mt-5 w-full ">
       {/* Contact Section */}
-      <div className="flex flex-col lg:flex-row w-full text-center  md:gap-0">
+      <div className="flex flex-col lg:flex-row w-full text-center   md:gap-0">
         {/* Left Image */}
         <div
-          className="w-full  lg:w h-[500px] md:h-[900px] bg-cover bg-center"
+          className="w-full   md:h-[900px] bg-cover bg-center"
           style={{ backgroundImage: `URL(${contpic})` }}
         ></div>
 
         {/* Right Contact Form */}
-        <div className="flex flex-col gap-6 lg:px-10 bg-black ">
+        <div className="flex flex-col gap-6  bg-black items-center justify-center w-full ">
+          <div className="">
+
           <h1 className="text-[20px] md:text-[50px] lg:text-[80px] text-white font-bold text-left">
             Contact Us
           </h1>
@@ -45,12 +47,13 @@ const Contact = () => {
                 <textarea
                   className="bg-white w-full h-32 md:h-40 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#D6B962] resize-none"
                   placeholder="Type your message here..."
-                ></textarea>
+                  ></textarea>
               </div>
 
               <button className="bg-[#D6B962] h-12 mt-4  rounded-xl text-black font-semibold hover:bg-yellow-500 transition">
                 Submit
               </button>
+            </div>
             </div>
           </div>
         </div>

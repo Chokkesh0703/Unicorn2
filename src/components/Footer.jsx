@@ -9,8 +9,8 @@ import tedx from "../assets/medialogo/tedx.svg";
 const Footer = () => {
   return (
     <div id="Footer">
-      <div className="flex   lg:flex-row flex-col  lg:gap-0 pt-5 w-full">
-        <div className="flex flex-col   gap-10  w-full p-20 pt-0   ">
+      <div className="flex   lg:flex-row flex-col  lg:gap-0 pt-5 w-full ">
+        <div className="flex flex-col   gap-10  w-full p-20 pt-0 items-center lg:items-baseline ">
           <div className="flex flex-col w-[218px] h-[118px]  bg-contain bg-no-repeat  lg:m-0">
             <img src={logo} alt="logo" className="w-full h-full" />
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col text-[#FFFFFF] font-Rubik font-extralight text-[10px] md:text-[20px] lg:text-[20px] gap-20 overflow-hidden  w-full lg:pr-20 " >
+        <div className="flex flex-col text-[#FFFFFF] font-Rubik font-extralight text-[10px] md:text-[20px] lg:text-[20px] gap-20 overflow-hidden  w-full px-20 lg:px-0 lg:pr-20 " >
           <div className="flex flex-row md:gap-25   gap-15  ">
             <p>Ph no:</p>
             <p>+91 9620425828</p>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#ffff] text-[20px] flex justify-center items-center  pb-10">
+      <div className="text-[#ffff] text-[20px] flex justify-center items-center pt-10 lg:pt-0 pb-10">
         <span>&copy;</span>
         <p>Copyright 2025, All Rights Reserved</p>
       </div>

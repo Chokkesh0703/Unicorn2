@@ -6,13 +6,13 @@ import photo from "./../assets/unicorn/photographer-with-camera-capturing-image-
 
 const About = () => {
   return (
-    <div className="" style={{ position: "relative" }}>
-      <div id="#about" className=" overflow-hidden h-[400px] md:h-[800px] lg:pb-[300px] mt-50 mb-0 lg:mt-0">
+    <div id="#About" className="" style={{ position: "relative" }}>
+      <div id="About" className=" overflow-hidden h-[400px] md:h-[800px]  mt-50 mb-0 lg:mt-0">
         <div className="lg:ml-55 md:ml-40 ml-10 relative">
-          <h1 className="text-[#BF9C32]  text-[25px] font-extrabold  md:text-[32px] font-[Poppins]  ">
+          <h1 className="text-[#BF9C32]  text-[25px] font-bold  md:text-[32px] font-Poppins  ">
             Our Story
           </h1>
-          <p className="text-[#FFFFFFD8] text-[20px] md:text-[43px] font-[Poppins]">
+          <p className="text-[#FFFFFFD8] text-[20px] md:text-[43px] font-Poppins">
             About The Unicorn Pictures
           </p>
         </div>
@@ -59,7 +59,7 @@ const About = () => {
             }}
           >
             <div className="absolute top-10 left-1 md:top-20 md:left-2 lg:top-26">
-              <p className="font-medium lg:text-[90px] md:text-[52px] text-[20px] text-[#ffff]">
+              <p className="font-Poppins  lg:text-[90px] md:text-[52px] text-[20px] text-[#ffff]">
                 Unicorn
               </p>
             </div>
@@ -68,7 +68,8 @@ const About = () => {
             </button>
           </div>
         </div>
-        <p className="text-[17px] text-[Poppins, Light] text-[#ffff] absolute top-60 p-10 pb-0 pt-0 overflow-auto text-center h-[50px] md:top-150 md:w=20 no-scrollbar lg:top-150 cursor-pointer lg:px-50">
+        <div className="py-10">
+        <p className="text-[17px] font-Poppins text-[#ffff] absolute top-60 p-10 pb-0 pt-0 overflow-auto text-center h-[50px] md:top-150 md:w=20 no-scrollbar lg:top-150 cursor-pointer lg:px-50">
       The Unicorn Pictures Private Limited, incorporated in the year 2017
       as a Private Limited Company registered with Registrar of Companies.
       The registered office of the Company is situated in No. 96, 2nd
@@ -89,6 +90,7 @@ const About = () => {
       Unicorn Pictures Private Limited team will help you achieve your
       goals on time.
     </p>
+      </div>
       </div>
     </div>
   );

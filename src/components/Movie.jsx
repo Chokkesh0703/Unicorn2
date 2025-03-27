@@ -22,27 +22,27 @@ function Movie() {
 
   return (
     <>
-    <div className="relative gap-20 flex flex-col ">
+    <div id='Movies' className="relative gap-20 flex flex-col ">
     <div className="flex flex-col justify-center items-center gap-5 relative ] ">
-        <h1 className='text-[43px] text-[#BF9C32] font-[Poppins] font-extrabold'>Movie Pictures</h1>
-        <p className=' md:text-[28px] text-[#FFFFFFD8] font-[Poppins] font-extrabold'>Our Curated Collection of Magical Movies</p>
+        <h1 className='text-[43px] text-[#BF9C32] font-Poppins font-bold'>Movie Pictures</h1>
+        <p className=' md:text-[28px] text-[#FFFFFFD8] font-Poppins '>Our Curated Collection of Magical Movies</p>
     </div>
     <div className=" ">
         
     <div className="flex gap-3 overflow-x-scroll  no-scrollbar">
       {images.map((image, index) => (
-          <div key={index} className="flex-none w-[300px] h-[700px] group hover:w-[600px]">
+          <div key={index} className="flex-none w-[300px] h-[700px] group hover:w-[500px] ">
           <img
             src={image}
             alt={`Movie ${index + 1}`}
-            className="w-full h-full object-fit rounded-lg transition-all duration-300 group-hover:w-[100%] group-hover:h-[700px]"
+            className="w-full h-full   group-hover:transition-normal "
             />
         </div>
       ))}
     </div>
     </div>
-    <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-center items-center  text[Poppins] " >
-        <div className="w-[100px] h-[80px] md:w-50 md:h-40 lg:w-[400px] lg:h-[300px]  lg:m-[118px] ml-0 md:p-10  "
+    <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-center items-center  font-[Poppins] " >
+        <div className="w-[100px] h-[80px] md:w-50 md:h-40 lg:w-[400px] lg:h-[300px]  lg:m-[40px] ml-0 md:p-10 md:px-2 "
         style={{
           backgroundImage:`url(${clipboard})`,
           backgroundRepeat:'no-repeat',

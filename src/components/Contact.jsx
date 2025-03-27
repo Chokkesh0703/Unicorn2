@@ -4,21 +4,21 @@ import logo from "./../assets/medialogo/Group 30678.svg";
 
 const Contact = () => {
   return (
-    <div className="mt-10 lg:mt-5">
+    <div id="Contact" className="mt-10 lg:mt-5 ">
       {/* Contact Section */}
-      <div className="flex flex-col lg:flex-row w-full text-center lg:gap-3 md:gap-0">
+      <div className="flex flex-col lg:flex-row w-full text-center  md:gap-0">
         {/* Left Image */}
         <div
-          className="w-full  lg:w-[1000px] h-[500px] md:h-[900px] bg-cover bg-center"
+          className="w-full  lg:w h-[500px] md:h-[900px] bg-cover bg-center"
           style={{ backgroundImage: `URL(${contpic})` }}
         ></div>
 
         {/* Right Contact Form */}
-        <div className="flex flex-col gap-6 lg:w-3/5 justify-center  items-center lg:px-10 bg-black">
-          <h1 className="text-[20px] md:text-[50px] lg:text-[100px] text-white font-bold mt-10">
+        <div className="flex flex-col gap-6 lg:px-10 bg-black ">
+          <h1 className="text-[20px] md:text-[50px] lg:text-[80px] text-white font-bold text-left">
             Contact Us
           </h1>
-          <p className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[40px] ml-10">
+          <p className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[23px] text-left ">
             Reach out and let’s start a conversation
           </p>
 
@@ -48,7 +48,7 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button className="bg-[#D6B962] h-12 mt-5 mb-10 rounded-xl text-black font-semibold hover:bg-yellow-500 transition">
+              <button className="bg-[#D6B962] h-12 mt-4  rounded-xl text-black font-semibold hover:bg-yellow-500 transition">
                 Submit
               </button>
             </div>

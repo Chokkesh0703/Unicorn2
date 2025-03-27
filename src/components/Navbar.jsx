@@ -15,18 +15,18 @@ const Navbar = () => {
       </div>
       
     
-      <ul className="text-[#ffff] hidden flex-row lg:gap-20 md:gap-10 md:flex">
-        <li className="font-[Poppins, Light] hover:text-yellow-500">
+      <ul className="text-[#ffff] hidden flex-row lg:gap-20 md:gap-10 md:flex font-Poppins-normal">
+        <li className="font-Poppins-normal hover:text-yellow-500">
           <a href="#home">Home</a>
         </li>
-        <li className="hover:text-yellow-500">
-          <a href="#about">About Us</a>
+        <li className="hover:text-yellow-500 transition-all duration-200 ">
+          <a href="#About">About Us</a>
         </li>
-        <li className="hover:text-yellow-500">
-          <a href="/movies">Movies</a>
+        <li className="hover:text-yellow-500 transition-scroll duration-500 ">
+          <a href="#Movies  ">Movies</a>
         </li>
-        <li className="hover:text-yellow-500">
-          <a href="/contact">Contact Us</a>
+        <li className="hover:text-yellow-500 transition-all duration-200 ">
+          <a href="#Contact">Contact Us</a>
         </li>
       </ul>
 
@@ -41,10 +41,11 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="nav-menu absolute top-0 right-0 size-60 h-[600px] z-50 bg-yellow-400 flex justify-center items-center  ">
           <ul className="nav_menu_list flex flex-col gap-5">
-            <li className="nav_list"><a href="#home" className=" hover:text-yellow-500">Home</a></li>
-            <li className="nav_list"><a href="#about" className=" hover:text-yellow-500">About Us</a></li>
-            <li className="nav_list"><a href="#projects" className=" hover:text-yellow-500">Movies</a></li>
-            <li className="nav_list"><a href="#contact" className=" hover:text-yellow-500">Contact Us</a></li>
+            <li className="nav_list" onClick={toggleMenu} ><a href="#Home" className=" hover:text-yellow-500 transition-all duration-200 ">Home</a></li>
+            <li className="nav_list" onClick={toggleMenu}><a href="#About" className=" outlinehover:text-yellow-500
+            transition-all duration-500 " onClick={toggleMenu}>About Us</a></li>
+            <li className="nav_list" onClick={toggleMenu}><a href="#Movies" className=" hover:text-yellow-500 transition-all duration-500 ">Movies</a></li>
+            <li className="nav_list" onClick={toggleMenu}><a href="#Contact" className=" hover:text-yellow-500 transition-all duration-500 ">Contact Us</a></li>
           </ul>
         </div>
       )}

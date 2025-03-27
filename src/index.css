@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: Georgia;
+  src: url("../src/assets/fonts/Georgia.ttf");
+}
+
+@font-face {
+  font-family: Poppins-thin;
+  src: url("../src/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../src/assets/fonts/poppins.light.ttf");
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../src/assets/fonts/Rubik-Medium.ttf");
+}
+
+@theme {
+  --font-Georgia: Georgia, "sans-serif";
+  --font-Poppins: Poppins, "sans-serif";
+  --font-Poppins-thin: Poppins-thin, "sans-serif";
+  --font-Rubik: Rubik, "sans-serif";
+}
+
+

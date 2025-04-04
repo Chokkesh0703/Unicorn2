@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="flex flex-col lg:flex-row w-full text-center   md:gap-0">
         {/* Left Image */}
         <div
-          className="w-full   md:h-[900px] bg-cover bg-center"
+          className="w-full h-screen md:h-[900px] bg-cover bg-center"
           style={{ backgroundImage: `URL(${contpic})` }}
         ></div>
 

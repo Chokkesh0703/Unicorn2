@@ -17,10 +17,10 @@ const Contact = () => {
         <div className="flex flex-col gap-6  bg-black items-center justify-center w-full ">
           <div className="">
 
-          <h1 className="text-[20px] md:text-[50px] lg:text-[80px] text-white font-bold text-left">
+          <h1 className="font-Rubik text-[20px] md:text-[50px] lg:text-[80px] text-white font-bold text-left">
             Contact Us
           </h1>
-          <p className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[23px] text-left ">
+          <p className=" text-[#D6B962] text-[17px] md:text-[18px] lg:text-[30px] text-left ">
             Reach out and let’s start a conversation
           </p>
 
@@ -29,7 +29,7 @@ const Contact = () => {
               {/* Input Fields */}
               {["Name", "Phone Number", "Email Address"].map((label, index) => (
                 <div key={index}>
-                  <label className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[30px]">
+                  <label className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[25px]">
                     {label}
                   </label>
                   <input
@@ -41,7 +41,7 @@ const Contact = () => {
 
               {/* Message Field (TextArea) */}
               <div>
-                <label className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[30px]">
+                <label className="text-[#D6B962] text-[17px] md:text-[18px] lg:text-[25px]">
                   Message
                 </label>
                 <textarea

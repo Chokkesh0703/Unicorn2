@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col text-[#FFFFFF] font-Rubik font-extralight text-[10px] md:text-[20px] lg:text-[20px] gap-20 overflow-hidden  w-full px-20 lg:px-0 lg:pr-20 " >
+        <div className="flex flex-col text-[#FFFFFF] font-Rubik font-extralight text-[10px] md:text-[20px] lg:text-[20px] gap-10 overflow-hidden  w-full px-20 lg:px-0 lg:pr-20 " >
           <div className="flex flex-row md:gap-25   gap-15  ">
             <p>Ph no:</p>
             <p>+91 9620425828</p>

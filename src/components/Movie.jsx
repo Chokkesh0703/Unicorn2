@@ -31,7 +31,7 @@ function Movie() {
         
     <div className="flex gap-3 overflow-x-scroll  no-scrollbar">
       {images.map((image, index) => (
-          <div key={index} className="flex-none w-[300px] h-[700px] group ">
+          <div key={index} className="flex-none w-[300px]  md:h-[700px] group ">
           <img
             src={image}
             alt={`Movie ${index + 1}`}

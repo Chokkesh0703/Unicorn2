@@ -7,7 +7,10 @@ import photo from "./../assets/unicorn/photographer-with-camera-capturing-image-
 const About = () => {
   return (
     <div id="#About" className="" style={{ position: "relative" }}>
-      <div id="About" className=" overflow-hidden h-[400px] md:h-[800px]  mt-50 mb-0 lg:mt-0">
+      <div
+        id="About"
+        className=" overflow-hidden h-[500px] md:h-[800px] lg:h-[700px]  mt-10 mb-10 lg:mt-0"
+      >
         <div className="lg:ml-55 md:ml-40 ml-10 relative">
           <h1 className="text-[#BF9C32]  text-[25px] font-bold  md:text-[32px] font-Poppins  ">
             Our Story
@@ -68,29 +71,16 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="py-10">
-        <p className="text-[17px] font-Poppins text-[#ffff] absolute top-60 p-10 pb-0 pt-0 overflow-auto text-center h-[50px] md:top-150 md:w=20 no-scrollbar lg:top-150 cursor-pointer lg:px-50">
-      The Unicorn Pictures Private Limited, incorporated in the year 2017
-      as a Private Limited Company registered with Registrar of Companies.
-      The registered office of the Company is situated in No. 96, 2nd
-      Floor, R.J. Garden, Marathahalli, Chinnapanahalli, Bangalore 560
-      037. The Company is working towards excellence in the Creative and
-      Animation Space. We believe in pursuing business through innovation
-      and technology. Our goal is to be an industry leader by providing
-      enhanced products, services, relationship and profitability. Vision:
-      To provide quality products and services that exceeds the
-      expectations of our valued customers. Mission: To build long term
-      relationships with our customers. In the future, we look forward to
-      developing a strong base of key customers and increasing the assets
-      and investments of our Company. Our team comprises of a group of
-      highly motivated industry experts and specialists with several years
-      of experience. At The Unicorn Pictures Private Limited, our
-      customers always come first and we greatly appreciate the trust that
-      they place in us. From initial enquiry to final copy, the The
-      Unicorn Pictures Private Limited team will help you achieve your
-      goals on time.
-    </p>
-      </div>
+        <div className="text-center">
+          <p className="text-[17px] font-Poppins text-[#ffff] absolute h-full top-60 p-12 pb-0 pt-0 md:top-150 md:w=20  lg:top-150 cursor-pointer lg:px-50">
+            The Unicorn Pictures Pvt. Ltd., founded in 2017 and based in
+            Bangalore, excels in creative and animation services. With a
+            passionate, experienced team, we focus on innovation, quality, and
+            lasting client relationships. Our mission is to exceed expectations
+            and grow through trust, technology, and industry-leading solutions
+            that drive success.
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ function Movie() {
         
     <div className="flex gap-3 overflow-x-scroll  no-scrollbar">
       {images.map((image, index) => (
-          <div key={index} className="flex-none w-[300px]  md:h-[700px] group ">
+          <div key={index} className="flex-none w-[250px] h-[500px]  md:h-[800px] md:w-[400px] group ">
           <img
             src={image}
             alt={`Movie ${index + 1}`}
@@ -41,16 +41,6 @@ function Movie() {
       ))}
     </div>
     </div>
-    {/* <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-center items-center  font-[Poppins] m-0 " >
-        <div className="w-[100px] h-[80px] md:w-50 md:h-40 lg:w-[400px] lg:h-[300px]  lg:m-[40px] ml-0 md:p-10 md:px-2 "
-        style={{
-          backgroundImage:`url(${clipboard})`,
-          backgroundRepeat:'no-repeat',
-          backgroundSize:'100%',
-          opacity:'100%',
-        }}></div>
-        <p className='text-[#FFFFFF] md:text-[18px] text-[10px] w-[80%] text-center'>"We're driving creative excellence in animation and photography, leading with innovation and technology."</p>
-    </div> */}
     </div>
     </>
   );

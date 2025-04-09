@@ -17,9 +17,7 @@ const Footer = () => {
           <div className="lg:pr-20 ">
             <p className="text-[#FFFFFF] lg:text-[20px] font-Popins font-light   ">
               "Ready to bring your creative vision to life? Our team at The
-              Unicorn Pictures is eager to hear from you. Whether you're seeking
-              stunning photography, captivating animation, or have a unique
-              project in mind, we're here to help.
+              Unicorn Pictures is eager to hear from you. We offer Pre-Production, RPM, Comp, FX, 3D, and Post-Production services with expert precision and creative excellence.
             </p>
           </div>
         </div>

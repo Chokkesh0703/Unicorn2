@@ -41,8 +41,8 @@ const Home = () => {
         >
           <img src={sidepic2} alt="" className="w-full h-full rounded-[34px]" />
             
-            <div className="absolute top-1 p-1 md:p-1 md:bottom-0  xl:p- 2xl:p- font-Poppins ">
-              {/* <h2 className="text-[35px] md:text-[40px] font-light  text-[black] mb-2 ">
+            <div className="absolute top-60 p-5 md:p-10 md:top-60  xl:p- 2xl:p- font-Poppins ">
+              <h2 className="text-[35px] md:text-[50px] font-light  text-[white] mb-2  ">
                 8.2
               </h2>
               <div className="flex items-center md:gap-2 ">
@@ -51,16 +51,16 @@ const Home = () => {
                 <i className="fas fa-star text-yellow-500"></i>
                 <i className="fas fa-star text-yellow-500"></i>
                 <i className="fas fa-star-half-alt text-yellow-500"></i>
-              </div> */}
-              {/* <h3 className="text-[25px] text-center lg:text-[20px] md:text-[40px] mt-3 text-white font-bold">
+              </div> 
+               <h3 className="text-[15px] lg:text-center lg:text-[20px] md:text-[50px] mt-3 text-white font-bold ">
                 New releases and exclusive originals updated weekly
-              </h3> */}
-              {/* <p className="text-[12px] lg:text-[18px] md:text-[20px] mt-3  text-[#020202cc] font-bold">
+              </h3>
+                {/* <p className="text-[12px] lg:text-[18px] md:text-[20px] mt-3  text-[#020202cc] font-bold">
                 Snow White premiered at Alcázar de Segovia in Segovia, Spain on
                 March 12, 2023, and is scheduled to be released in theaters in
                 the United States by Walt Disney Studios Motion Pictures on
                 March 21, 2025.
-              </p> */}
+              </p>  */}
             </div>
         </div>
     

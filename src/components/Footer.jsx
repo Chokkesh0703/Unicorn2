@@ -14,8 +14,8 @@ const Footer = () => {
           <div className="flex flex-col w-[218px] h-[118px]  bg-contain bg-no-repeat  lg:m-0">
             <img src={logo} alt="logo" className="w-full h-full" />
           </div>
-          <div className="lg:pr-20 ">
-            <p className="text-[#FFFFFF] lg:text-[20px] font-Popins font-light   ">
+          <div className="lg:pr-20 flex justify-center items-center ">
+            <p className="text-[#FFFFFF] lg:text-[20px] font-Popins font-light    ">
               "Ready to bring your creative vision to life? Our team at The
               Unicorn Pictures is eager to hear from you. We offer Pre-Production, RPM, Comp, FX, 3D, and Post-Production services with expert precision and creative excellence.
             </p>

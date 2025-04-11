@@ -20,12 +20,12 @@ const About = () => {
           </p>
         </div>
         <div
-          className="p-1 relative "
+          className="p-1 relative m-1 "
           style={{
             backgroundImage: `url(${unicorn})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "100%",
-            height: "50vh",
+            height: "100%",
             color: "#ffff",
             opacity: "200%",
           }}
@@ -53,7 +53,7 @@ const About = () => {
             }}
           ></div>
           <div
-            className="absolute top-4 left-40  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:top-12 md:left-100  lg:w-[20rem] lg:h-[20rem] lg:top-20 lg:left-164 rounded-full border-l-black border-l-10"
+            className="absolute top-4 left-40  w-[6rem] h-[6rem] md:w-[14rem] md:h-[14rem] md:top-12 md:left-100  lg:w-[20rem] lg:h-[20rem] lg:top-20 lg:left-164 rounded-full border-l-black border-l-10 "
             style={{
               backgroundImage: `url(${animal})`,
               backgroundSize: "cover",
